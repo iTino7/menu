@@ -13,7 +13,7 @@ public class Menu {
     public void stampaMenu() {
         System.out.println("Menu della pizzeria: ");
         for (ElementoMenu e : elements) {
-            System.out.println("- " + e.descrizione());
+            System.out.println("-  " + e.descrizione());
         }
     }
 }
