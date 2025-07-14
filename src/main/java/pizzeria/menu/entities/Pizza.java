@@ -6,8 +6,9 @@ public class Pizza extends ElementoMenu {
 
     private List<Topping> toppings;
 
-    public Pizza(String nome, int calorie, double prezzo) {
+    public Pizza(String nome, int calorie, double prezzo, List<Topping> toppings) {
         super(nome, calorie, prezzo);
+        this.toppings = toppings;
     }
 
     @Override
